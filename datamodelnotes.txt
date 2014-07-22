@@ -1,0 +1,26 @@
+Add a grocery item to list of groceries
+
+List out the groceries and their quantity along with the price
+
+	Date picker, choose grocery from earlier created list, unit (kg, gram, ltr, etc..,)
+	Date Name-of-the-grocery quantity unit total-price
+
+Enter how much of each good is consumed (It's not always possible to enter the exact quantity, approx values are sufficient)
+	Date Name-of-the-grocery quantity unit 
+
+With the above information we can always provide Available quantity of groceries 
+	Name-of-the-grocery quantity unit
+	
+List out the information of groceries need to be refilled
+	Take input from the user for how many days and for how many people, with this calculate approx amounts of each groceries need to be bought. This should consider the amounts earlier consumed and also the wastage.
+	It's possible that some groceries are consumed daily and some are consumed occasionally, the program will suggest the quantity required as per the user input
+	
+		Input: Persons, Time period (days, weeks or months)
+		Output: Grocery, required quantity... along side with each item give option to change the days, persons and a button too recalculate 
+		
+		
+Wastage of groceries
+	What percent of it going waste/ unused and thrown into dust bin later
+		Waste comes in two ways, one is if the groceries are not used at all and later thrown into dustbin and the other is going waste after making the food and if the food item is not consumed.
+		
+Maintain weekly wastage data
